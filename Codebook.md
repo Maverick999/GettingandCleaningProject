@@ -29,7 +29,6 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyGyroJerkMag
 
 For the tidy dataset contained in the repository, the only included variables are the mean and standard deviation of the variables listed above. Additionally, each variable in the tidy dataset is an average of each variable for each activity and each subject. The variable names adhere to the following conventions: 
-
-mean (Mean): variable_mean_axis (e.g., tBodyAcc_mean_X)
-std (Standard Deviation): variable_std_axis (e.g., tBodyAcc_std_X) 
+- mean (Mean): variable_mean_axis (e.g., tBodyAcc_mean_X)
+- std (Standard Deviation): variable_std_axis (e.g., tBodyAcc_std_X) 
 
