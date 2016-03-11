@@ -1,7 +1,16 @@
 # GettingandCleaningProject
 ## Introduction
 
-The following tidy dataset was generated from the "Human Activity Recognition Using Smartphones Dataset," Version 1.0, which was created by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto (see License below).
+The tidy dataset in the repository was generated from the "Human Activity Recognition Using Smartphones Dataset," Version 1.0, which was created by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto (see License below).
+
+##Goals
+The purpose for creating the tidy dataset was to achieve the following goals:
+- Merge the training and the test sets to create one data set.
+- Extract only the measurements on the mean and standard deviation for each measurement.
+- Use descriptive activity names to name the activities in the data set
+- Appropriately label the data set with descriptive variable names.
+- From the data set in the previous step, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
 According the readme document contained in the raw dataset, 30 volunteers between the ages of 19 and 48 performed six activities,  (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, researchers captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -17,7 +26,7 @@ In the original dataset, each record included the following:
 
 The tidy dataset included in this repository extracted only the mean and standard deviation for each variable (where available), which was then averaged for each activity and each subject.
 
-An R script contatining the process of getitng and cleaning the data along with a codebook are also included in this respository.
+An R script containing the process of achieving the stated goals stated above along with a codebook are also included in this repository.
 
 License:
 
