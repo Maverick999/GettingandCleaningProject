@@ -3,8 +3,6 @@ if (!file.exists("./project")){dir.create("./project")}
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile="./project/temp.zip")
 unzip("./project/temp.zip", exdir="./project/data")
 
-
-
 ##Reading Activity labels and features into R
 activity_labels  <- read.table("./project/data/UCI HAR Dataset/activity_labels.txt")
 features  <- read.table("./project/data/UCI HAR Dataset/features.txt")
