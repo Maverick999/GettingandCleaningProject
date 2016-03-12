@@ -1,5 +1,6 @@
 ##Code Book for Getting and Cleaning Project
 
+## Background and Variable Descriptions
 From the documentation contained in the original dataset (see Readme file for more information about the dataset), 
 the features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -33,4 +34,10 @@ For the tidy dataset contained in the repository, the only included variables ar
 - std (Standard Deviation): variable_std_axis (e.g., tBodyAcc_std_X) 
 
 Additionally, Subject_ID is a factor variable (taking on values from 1 to 30) that identifies the subject being measured. Activity is a factor variable that specifies the activity being performed by the subject (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, or Laying). 
+
+##  Transformations performed to clean up the data
+- Extracted Mean and Standard Deviation Variables for Train and Test datasets by searching for "mean" or "std" and subsetting the original table accordingly
+- Merged test data set with train data set by binding rows together
+- Created an independent tidy data set with the average of each variable for each activity and each subject by grouping data by subject and activity
+
 
