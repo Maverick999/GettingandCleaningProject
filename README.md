@@ -31,6 +31,7 @@ An R script containing the process of achieving the stated goals stated above al
 ##About the R Script
 - Extracts Mean and Standard Deviation Variables for Train and Test datasets by searching for "mean" or "std" and subsetting the original table accordingly
 - Merges test data set with train data set by binding rows together
+- Activities were changed from numeric values to characters to provide a more meaningful description
 - Created an independent tidy data set with the average of each variable for each activity and each subject by grouping data by subject and activity
 
 License:
