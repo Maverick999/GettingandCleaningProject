@@ -26,7 +26,7 @@ In the original dataset, each record included the following:
 
 The tidy dataset included in this repository extracted only the mean and standard deviation for each variable (where available), which was then averaged for each activity and each subject.
 
-An R script containing the process of achieving the stated goals stated above along with a codebook are also included in this repository.
+An R script containing the process of achieving the stated goals stated above along with a codebook that summarizes the data transformation process as well as describes the variables are also included in this repository. 
 
 License:
 
