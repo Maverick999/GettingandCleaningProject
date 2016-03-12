@@ -32,3 +32,5 @@ For the tidy dataset contained in the repository, the only included variables ar
 - mean (Mean): variable_mean_axis (e.g., tBodyAcc_mean_X)
 - std (Standard Deviation): variable_std_axis (e.g., tBodyAcc_std_X) 
 
+Additionally, Subject_ID is a factor variable (taking on values from 1 to 30) that identifies the subject being measured. Activity is a factor variable that specifies the activity being performed by the subject (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, or Laying). 
+
