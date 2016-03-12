@@ -28,6 +28,11 @@ The tidy dataset included in this repository extracted only the mean and standar
 
 An R script containing the process of achieving the stated goals stated above along with a codebook that summarizes the data transformation process as well as describes the variables are also included in this repository. 
 
+##About the R Script
+- Extracts Mean and Standard Deviation Variables for Train and Test datasets by searching for "mean" or "std" and subsetting the original table accordingly
+- Merges test data set with train data set by binding rows together
+- Created an independent tidy data set with the average of each variable for each activity and each subject by grouping data by subject and activity
+
 License:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
